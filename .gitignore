@@ -1,0 +1,6 @@
+# Never commit credentials or raw (unredacted) material
+*.key
+*.pem
+*secret*
+*password*
+raw/

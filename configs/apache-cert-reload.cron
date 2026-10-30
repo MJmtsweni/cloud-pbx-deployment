@@ -1,0 +1,3 @@
+# /etc/cron.d/apache-cert-reload
+# Daily 03:15 graceful reload so Apache picks up certificates renewed by FreePBX
+15 3 * * * root /usr/bin/systemctl reload apache2

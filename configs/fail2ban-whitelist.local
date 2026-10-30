@@ -1,0 +1,4 @@
+# /etc/fail2ban/jail.d/zz-touchdomain-whitelist.local
+# Read last (jail.d/*.local), so it overrides FreePBX-managed jail.local
+[DEFAULT]
+ignoreip = 127.0.0.1/8 <admin-ip>/32 196.216.192.0/24
